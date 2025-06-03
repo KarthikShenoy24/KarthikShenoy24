@@ -1,6 +1,8 @@
 /**
  * setInterval(callback,interval,arg1,arg2,...argN);
  */
+
+//to make sere user does not update window.intervalId and window.intervals
 const intervalsKey = Symbol();
 const intervalIdTrackerKey = Symbol();
 
